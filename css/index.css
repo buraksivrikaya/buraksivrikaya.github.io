@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(to top right, #49b2a7, #84c3b3);
+}
+
+#page-icon{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 15%;
+}
+
+#profile{
+    background-color: white;
+    padding:15px;
+    width: 50%;
+    margin-right:auto;
+    margin-left: auto;
+    margin-top: 20px;
+    box-shadow: 0px 0px 15px black;
+}
+
+#profile-photo{
+    width: 100%;
+    height: auto;
+    transform: rotate(-5deg);
+    box-shadow: 0px 0px 15px black;
+}
+
+#photo-row{
+    padding: 20px;
+}
+
+#details-row{
+    padding-top: 30px;
+}
+
+.details{
+    padding-top:3px;
+}
+
+.social-icon{
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+}
+
+.social-icon:hover{
+    color: black;
+}
+
+.social-icon i:hover{
+    box-shadow: 0px 0px 3px black;
+}
